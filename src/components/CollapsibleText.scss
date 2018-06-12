@@ -1,0 +1,21 @@
+.collapsibleText {
+  position: relative;
+  line-height: 28px;
+  font-size: 14px;
+
+  &--collapse {
+    //max-height: 84px;
+    overflow: hidden;
+  }
+
+  &__label {
+    position: absolute;
+    line-height: 28px;
+    font-size: 14px;
+    bottom: 0;
+    right: 0;
+    color: #6a9ada;
+    padding: 0 5px 0 20px;
+    background: linear-gradient(90deg, hsla(0, 0%, 100, 0%), #fff, #fff, #fff);
+  }
+}
